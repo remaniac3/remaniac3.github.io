@@ -15,8 +15,8 @@ body {
 table#dp {
     font-family: 'Open Sans', sans-serif;
     border-collapse: collapse;
-    width: 50%;
-    padding-left:5em;
+    width: 70%;
+    padding-left: 5em;
 }
 
 table#dp td {
@@ -30,10 +30,23 @@ table#dp th {
     border: 1px solid #A9A9A9;
     text-align: left;
     padding: 8px;
-    width: 40%;
+    width: 25%;
 }
 
 /* [DP TABLE] ENDS */
+
+
+
+/* [CMS TABLE] STARTS */
+
+table#cms {
+    font-family: 'Open Sans', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    padding-left: 5em;
+}
+
+/* [CMS TABLE] ENDS */
 
 
 
@@ -45,11 +58,11 @@ table#dp th {
     color: #ffffff;
 }
 
-<!--
+/*
 .header h1 {
     font-size: 40px;
 }
--->
+*/
 
 .navbar {
     font-family: 'Nunito', sans-serif;
