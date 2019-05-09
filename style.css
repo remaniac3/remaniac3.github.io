@@ -8,6 +8,35 @@ body {
     margin: 0;
 }
 
+
+
+/* [DP TABLE] STARTS */
+
+table {
+    font-family: 'Open Sans', sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    padding-left:5em;
+}
+
+table#dp td {
+    border: 1px solid #A9A9A9;
+    text-align: left;
+    padding: 8px;
+}
+
+table#dp th {
+    background-color: #D3D3D3;
+    border: 1px solid #A9A9A9;
+    text-align: left;
+    padding: 8px;
+    width: 40%;
+}
+
+/* [DP TABLE] ENDS */
+
+
+
 .header {
     font-family: 'Nunito', sans-serif;
     padding: 5px;
