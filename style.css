@@ -178,5 +178,5 @@ table#cms td {
 .button_spacing {
     overflow: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
