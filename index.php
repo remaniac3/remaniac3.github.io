@@ -1,25 +1,10 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
-<head>
-
-    <title>R3MANIAC</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Nunito" rel="stylesheet">
-
-</head>
-
-<body>
-
-<div class="header">
-    <h1><b>R3MANIAC</b></h1>
-</div>
-
-<div class="navbar">
-    <p>WORK IN PROGRESS</p>
-</div>
+<?php
+include('header.php');
+?>
 
 <div class="main">
     <p><img src="/img/golden_png_500.png" width="300px" height="300px"></img></p>
