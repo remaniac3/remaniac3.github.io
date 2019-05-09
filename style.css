@@ -14,7 +14,9 @@ img {
     height: auto;
 }
 
-
+h2 {
+    font-family: 'Nunito', sans-serif;
+}
 
 /* [DP TABLE] STARTS */
 
@@ -87,6 +89,17 @@ table#cms {
     color: #000000;
     font-size: 16px;
     text-align: center;
+}
+
+.mainLEFT {
+    max-width: 70%;
+    margin: auto;
+    flex: 70%;
+    background-color: #f6f1eb;
+    padding: 30px;
+    color: #000000;
+    font-size: 16px;
+    text-align: left;
 }
 
 .footer {
