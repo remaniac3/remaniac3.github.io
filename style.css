@@ -12,7 +12,7 @@ body {
 
 /* [DP TABLE] STARTS */
 
-table {
+table#dp {
     font-family: 'Open Sans', sans-serif;
     border-collapse: collapse;
     width: 50%;
