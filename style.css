@@ -281,12 +281,12 @@ h3 {
     }
 
     .aboutLEFT {
-        flex: 30%;
+        flex: 20%;
         padding: 30px;
     }
 
     .aboutRIGHT {
-        flex: 70%;
+        flex: 80%;
         padding: 30px;
     }
 
