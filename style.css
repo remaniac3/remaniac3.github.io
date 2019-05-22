@@ -162,14 +162,14 @@ h3 {
 
     table#about td {
         text-align: left;
-        padding: 8px;
+        padding: 16px;
     }
 
     table#about th {
         text-align: right;
         font-weight: bold;
         vertical-align: text-top;
-        padding: 8px;
+        padding: 16px;
     }
 
 /* [ABOUT TABLE] ENDS */
@@ -281,12 +281,12 @@ h3 {
     }
 
     .aboutLEFT {
-        flex: 20%;
+        flex: 30%;
         padding: 30px;
     }
 
     .aboutRIGHT {
-        flex: 80%;
+        flex: 70%;
         padding: 30px;
     }
 
