@@ -376,7 +376,6 @@ h3 {
 
     .prev, .next {
         cursor: pointer;
-        position: absolute;
         top: 50%;
         width: auto;
         padding: 16px;
@@ -389,13 +388,15 @@ h3 {
         user-select: none;
     }
 
-    .next {
-        right: 0;
+    .prev {
+        position: absolute;
+        left: auto;
         border-radius: 3px 0 0 3px;
     }
 
-    .prev {
-        left: auto;
+    .next {
+        position: absolute;
+        right: 0;
         border-radius: 3px 0 0 3px;
     }
 
