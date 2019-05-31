@@ -15,6 +15,10 @@
     $(document).ready(function(){
         $('#navbar_link').load("/jq/navbar_link.html");
     });
+
+    $(document).ready(function(){
+        $('#footer_text').load("/jq/footer_text.html");
+    });
 </script>
 
 <body>
@@ -50,10 +54,13 @@
 
 
 <div class="main">
+
+    <h1>WELCOME!</h1>
+
     <p align=center><img src="img/golden_png_500.png", width="300px", height="300px"></img></p>
     <p>Hello there! This is R3MANIAC.</p>
     <p>The website is still work in progress, so there is nothing much to see yet, unfortunately.</p>
-    <p>That being said, the links that lead to my online portfolio are still available at the <b>top-right</b> corner of this page (Can you see the <b>LINK</b> over there?). Feel free to check them out!</p>
+    <p>The links of my online portfolio are at the <b>top-right</b> corner of this page. Feel free to check them out!</p>
 
 
     <!--
@@ -70,9 +77,7 @@
     -->
     
 
-    <p>If you have any questions, please do not hesitate to reach me via the platforms above.
-        <br>
-        Alternatively, you can send me an <a href="mailto:r3maniac@gmail.com">e-mail</a>. I will reply as soon as possible.</p>
+    <p>If you have any questions, be it art commissions or a bug you just discovered on this website, please do not hesitate to reach me via the platforms above. Alternatively, you can send me an e-mail: <a href="mailto:r3maniac@gmail.com">r3maniac@gmail.com</a>. I will reply as soon as possible.</p>
     <p>Do come back some other time for updates. Thank you for your visit!</p>
 </div>
 
@@ -82,10 +87,7 @@
 
 
 <div class="footer">
-    <p>Website created by R3MANIAC
-        <br>
-        <font size="2">All rights reserved. Copyrights belong to their respective owners.</font>
-    </p>
+    <div id="footer_text"></div>
 </div>
 
 
