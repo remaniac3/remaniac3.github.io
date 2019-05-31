@@ -449,4 +449,8 @@ h3 {
         to {opacity: 1}
     }
 
+    @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+    }
+
 /* [SLIDESHOW HOME] ENDS HERE */
