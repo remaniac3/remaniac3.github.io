@@ -19,6 +19,10 @@
     $(document).ready(function(){
         $('#test2').load("/labo/test2.html");
     });
+
+    $(document).ready(function(){
+        $('#navbar_link').load("/jq/navbar_link.html");
+    });
 </script>
 
 <body>
@@ -34,7 +38,13 @@
             <li class="navbar"><a href="commissions.html">ART COMMISSIONS</a></li>
             <li class="navbar"><a href="works.html", class="active">WORKS</a></li>
             <li class="navbar"><a href="about.html">ABOUT</a></li>
-            <li class="navbar"><a href="contact.html">CONTACT</a></li>
+
+            <li class="navbar", style="float:right">
+                    <div class="dropdown">
+                        <button class="dropbtn">LINKS ▼</button>
+                        <div id="navbar_link"></div>
+                    </div>
+                </li>
             
             <li class="navbar", style="float:right"><a href="https://www.pixiv.net/fanbox/creator/3116983" target="_blank">pixivFANBOX</a></li>
             <li class="navbar", style="float:right"><a href="https://www.patreon.com/r3maniac" target="_blank">PATREON</a></li>

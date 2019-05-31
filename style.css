@@ -202,12 +202,11 @@ h3 {
         text-decoration: none;
     }
 
-    li.navbar a:hover:not(.active), .dropdown:hover .dropbtn {
+    li.navbar a:hover:not(.active){
         background-color: #6d6059;
     }
 
     li.navbar a.home:hover:not(.active) {
-        /*background-color: #3d342f;*/
         background-color: #3d342f;
     }
 
@@ -325,12 +324,17 @@ h3 {
         font-family: inherit;
         margin: 0;
     }
+
+    .dropdown:hover .dropbtn {
+        background-color: #1c1613;
+    }
     
     .dropdown-content {
         right: 0;
         display: none;
         position: absolute;
-        background-color: #6d6059;
+        /* background-color: #3d342f; */
+        background-color: #1c1613;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
@@ -345,8 +349,9 @@ h3 {
         text-align: right;
     }
 
-    .dropdown-content a:hover {
-        background-color: #aa9990;
+    .dropdown-content a:hover:not(.active) {
+        background-color: red;
+        color: white;
     }
 
     .dropdown:hover .dropdown-content {
