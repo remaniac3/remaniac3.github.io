@@ -365,7 +365,7 @@ h3 {
 /* [SLIDESHOW HOME] STARTS HERE */
 
     .slideshow_container {
-        max-width: 800px;
+        max-width: 1000px;
         position: relative;
         margin: auto;
     }
@@ -389,8 +389,8 @@ h3 {
     }
 
     .prev {
-        position: relative;
-        left: auto;
+        position: absolute;
+        left: -50%;
         border-radius: 3px 0 0 3px;
     }
 
