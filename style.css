@@ -390,7 +390,7 @@ h3 {
     }
 
     .prev {
-        left: -50%;
+        left: auto;
         border-radius: 3px 0 0 3px;
     }
 
