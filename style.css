@@ -394,6 +394,11 @@ h3 {
         border-radius: 3px 0 0 3px;
     }
 
+    .prev {
+        right: 1;
+        border-radius: 3px 0 0 3px;
+    }
+
     .prev:hover, .next:hover {
         background-color: rgba(0,0,0,0.8);
     }
@@ -406,6 +411,7 @@ h3 {
         bottom: 8px;
         width: 100%;
         text-align: center;
+        background-color: rgba(0,0,0,0.5);
     }
     
     .numbertext {
