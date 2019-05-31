@@ -395,7 +395,7 @@ h3 {
     }
 
     .prev {
-        right: 1;
+        left: auto;
         border-radius: 3px 0 0 3px;
     }
 
@@ -403,6 +403,7 @@ h3 {
         background-color: rgba(0,0,0,0.8);
     }
 
+    /*
     .textSlide {
         color: #f2f2f2;
         font-size: 14px;
@@ -412,6 +413,7 @@ h3 {
         text-align: center;
         background-color: rgba(0,0,0,0.5);
     }
+    */
     
     .numbertext {
         color: #f2f2f2;
