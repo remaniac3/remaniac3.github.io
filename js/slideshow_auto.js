@@ -4,11 +4,8 @@ $(document).ready(function(){
   });
 });
 
-$('.autoplay').slick({
+$('.lazy').slick({
+  lazyLoad: 'ondemand',
   slidesToShow: 1,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 3000,
-  pauseOnHover: true,
-  pauseOnDotsHover: true;
+  slidesToScroll: 1
 });
