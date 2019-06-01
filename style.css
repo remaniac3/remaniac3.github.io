@@ -370,6 +370,10 @@ h3 {
 
     * {box-sizing:border-box}
 
+    .slideDIV {
+        padding: 30px;
+    }
+
     .slideshow-container {
         max-width: 1000px;
         position: relative;
