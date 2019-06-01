@@ -419,7 +419,7 @@ h3 {
         font-size: 15px;
         padding: 8px 12px;
         position: absolute;
-        bottom: 8px;
+        bottom: 5px;
         width: 100%;
         text-align: center;
         background-color: rgba(0, 0, 0, 0.6);
@@ -442,7 +442,7 @@ h3 {
         background-color: #bbb;
         border-radius: 50%;
         display: inline-block;
-        transition: background-color 0.6s ease;
+        transition: background-color 0.5s ease;
     }
 
     .active, .dot:hover {
@@ -451,18 +451,18 @@ h3 {
 
     .fade {
         -webkit-animation-name: fade;
-        -webkit-animation-duration: 1s;
+        -webkit-animation-duration: 0.5s;
         animation-name: fade;
-        animation-duration: 1s;
+        animation-duration: 0.5s;
     }
 
     @-webkit-keyframes fade {
-        from {opacity: .5} 
+        from {opacity: .8} 
         to {opacity: 1}
     }
 
     @keyframes fade {
-        from {opacity: .5} 
+        from {opacity: .8} 
         to {opacity: 1}
     }
 
