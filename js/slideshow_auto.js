@@ -4,8 +4,4 @@ $(document).ready(function(){
   });
 });
 
-$('.lazy').slick({
-  lazyLoad: 'ondemand',
-  slidesToShow: 1,
-  slidesToScroll: 1
-});
+$('.single-item').slick();
