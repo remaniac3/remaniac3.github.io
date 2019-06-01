@@ -157,23 +157,14 @@ h3 {
 
 /* [ABOUT TABLE] STARTS */
 
-    table#about {
-        font-family: 'Open Sans', sans-serif;
-        border-collapse: collapse;
+    .aboutTITLE {
+        padding: 8px;
         width: 100%;
-        padding-left: 5em;
-    }
-
-    table#about td {
-        text-align: left;
-        padding: 16px;
-    }
-
-    table#about th {
-        text-align: right;
+        display: inline-block;
         font-weight: bold;
-        vertical-align: text-top;
-        padding: 16px;
+        text-align: center;
+        color: white;
+        background-color: #91847e;
     }
 
 /* [ABOUT TABLE] ENDS */
@@ -189,9 +180,9 @@ h3 {
         overflow: hidden;
         background-color: #3d342f;
         text-align: center;
-        -webkit-box-shadow: 0px 2px 5px 0px rgba(87,87,87,1);
+        /* -webkit-box-shadow: 0px 2px 5px 0px rgba(87,87,87,1);
         -moz-box-shadow: 0px 2px 5px 0px rgba(87,87,87,1);
-        box-shadow: 0px 2px 5px 0px rgba(87,87,87,1);
+        box-shadow: 0px 2px 5px 0px rgba(87,87,87,1); */
     }
 
     li.navbar {
@@ -236,8 +227,19 @@ h3 {
     text-align: center;
 }
 
+.navbarSub {
+    padding: 5px;
+    background: #91847e;
+    color: black;
+    text-align: center;
+    color: white;
+    /* -webkit-box-shadow: 0px 2px 5px 0px rgba(87,87,87,1);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(87,87,87,1);
+    box-shadow: 0px 2px 5px 0px rgba(87,87,87,1); */
+}
+
 .slideDIV {
-    max-width: 70%;
+    max-width: 100%;
     margin: auto;
     flex: 70%;
     padding-top: 30px;
@@ -274,9 +276,9 @@ h3 {
     text-align: center;
     background: #3d342f;
     color: #ffffff;
-    -webkit-box-shadow: 0px -2px 5px 0px rgba(87,87,87,1);
+    /* -webkit-box-shadow: 0px -2px 5px 0px rgba(87,87,87,1);
     -moz-box-shadow: 0px -2px 5px 0px rgba(87,87,87,1);
-    box-shadow: 0px -2px 5px 0px rgba(87,87,87,1);
+    box-shadow: 0px -2px 5px 0px rgba(87,87,87,1); */
 }
 
 .button_spacing {
@@ -289,20 +291,32 @@ h3 {
 
 /* [ABOUT ROWS] STARTS */
 
-    .rowABOUT {
-        display: flex;
+    .rowABOUT::after {
+        /* width: auto;
+        max-width: 100%;
+        height: auto; */
+
+        content: "";
+        clear: both;
+        display: table;
     }
+
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+      }
 
     .aboutLEFT {
         flex: 30%;
-        padding: 30px;
     }
 
     .aboutRIGHT {
         flex: 70%;
-        padding: 30px;
     }
 
+    
+
+    /*
     @media screen and (max-width: 600px) {
         .rowABOUT {
             width: 100%;
@@ -316,6 +330,7 @@ h3 {
             width: 100%;
         }
     }
+    */
 
 /* [ABOUT ROWS] ENDS */
 
@@ -445,7 +460,7 @@ h3 {
         transition: background-color 0.5s ease;
     }
 
-    .active, .dot:hover {
+    .dot:hover {
         background-color: #717171;
     }
 
@@ -467,3 +482,43 @@ h3 {
     }
 
 /* [SLIDESHOW HOME] ENDS HERE */
+
+
+
+/* [RESPONSIVE] STARTS */
+
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .col-s-1 {width: 8.33%;}
+        .col-s-2 {width: 16.66%;}
+        .col-s-3 {width: 25%;}
+        .col-s-4 {width: 33.33%;}
+        .col-s-5 {width: 41.66%;}
+        .col-s-6 {width: 50%;}
+        .col-s-7 {width: 58.33%;}
+        .col-s-8 {width: 66.66%;}
+        .col-s-9 {width: 75%;}
+        .col-s-10 {width: 83.33%;}
+        .col-s-11 {width: 91.66%;}
+        .col-s-12 {width: 100%;}
+    }
+
+    @media only screen and (min-width: 768px) {
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+    }
+
+/* [RESPONSIVE] ENDS */
