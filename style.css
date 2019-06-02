@@ -26,193 +26,6 @@ h3 {
     font-family: 'Nunito', sans-serif;
 }
 
-
-
-/* [BUTTON COMMISH] STARTS */
-
-    a.button:link, a.button:visited {
-        background-color: #91847e;
-        color: white;
-        padding: 10px 30px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-    }
-
-    a.button:hover, a.button:active {
-        background-color: #6d6059;
-    }
-
-/* [BUTTON COMMISH] ENDS */
-
-
-
-/* [BUTTON TOP] STARTS */
-
-    a.buttonTOP:link, a.buttonTOP:visited {
-        background-color: #aa9e98;
-        color: white;
-        padding: 10px 30px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-    }
-
-    a.buttonTOP:hover, a.buttonTOP:active {
-        background-color: #91847e;
-    }
-
-/* [BUTTON TOP] ENDS */
-
-
-
-/* [BUTTON SNS] STARTS */
-
-    .buttonSNS {
-        color: white;
-    }
-
-    a.buttonSNS:link, a.button:visited {
-        background-color: #91847e;
-        color: white;
-        padding: 10px 30px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        width: 50%;
-        text-decoration: none;
-        word-wrap: break-word;
-    }
-
-    a.buttonSNS:hover, a.button:active {
-        background-color: #6d6059;
-    }
-
-/* [BUTTON SNS] ENDS */
-
-
-
-/* [DP TABLE] STARTS */
-
-    table#dp {
-        font-family: 'Open Sans', sans-serif;
-        border-collapse: collapse;
-        width: 50%;
-        padding-left: 5em;
-    }
-
-    table#dp td {
-        border: 1px solid #A9A9A9;
-        text-align: left;
-        padding: 8px;
-    }
-
-    table#dp th {
-        background-color: #D3D3D3;
-        border: 1px solid #A9A9A9;
-        text-align: left;
-        padding: 8px;
-        width: 30%;
-    }
-
-/* [DP TABLE] ENDS */
-
-
-
-/* [CMS TABLE] STARTS */
-
-    table#cms {
-        font-family: 'Open Sans', sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-        padding-left: 5em;
-    }
-
-    table#cms_stat {
-        font-family: 'Open Sans', sans-serif;
-        border-collapse: collapse;
-        width: 50%;
-        padding-left: 5em;
-        border: 1px solid #A9A9A9;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    table#cms th {
-        background-color: #D3D3D3;
-        border: 1px solid #A9A9A9;
-        text-align: center;
-        padding: 8px;
-    }
-
-    table#cms td {
-        border: 1px solid #A9A9A9;
-        text-align: center;
-        padding: 8px;
-    }
-
-/* [CMS TABLE] ENDS */
-
-
-
-/* [ABOUT TABLE] STARTS */
-
-    .aboutTITLE {
-        padding: 8px;
-        width: 100%;
-        display: inline-block;
-        font-weight: bold;
-        text-align: center;
-        color: white;
-        background-color: #91847e;
-    }
-
-/* [ABOUT TABLE] ENDS */
-
-
-
-/* [NAVBAR UL/LI] STARTS */
-
-    ul.navbar {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #3d342f;
-        text-align: center;
-        /* -webkit-box-shadow: 0px 2px 5px 0px rgba(87,87,87,1);
-        -moz-box-shadow: 0px 2px 5px 0px rgba(87,87,87,1);
-        box-shadow: 0px 2px 5px 0px rgba(87,87,87,1); */
-    }
-
-    li.navbar {
-        float: left;
-    }
-
-    li.navbar a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-
-    li.navbar a:hover:not(.active){
-        background-color: #6d6059;
-    }
-
-    li.navbar a.home:hover:not(.active) {
-        background-color: #3d342f;
-    }
-
-    .active {
-        background-color: #1c1613;
-    }
-
-/* [NAVBAR UL/LI] ENDS */
-
-
-
 .header {
     font-family: 'Nunito', sans-serif;
     padding: 5px;
@@ -288,14 +101,213 @@ h3 {
 }
 
 
+/*
+=====================================================================
+    BUTTON COMMISH
+=====================================================================
+*/
 
-/* [ABOUT ROWS] STARTS */
+    a.button:link, a.button:visited {
+        background-color: #91847e;
+        color: white;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    a.button:hover, a.button:active {
+        background-color: #6d6059;
+    }
+
+
+
+/*
+=====================================================================
+    BUTTON TOP
+=====================================================================
+*/
+
+    a.buttonTOP:link, a.buttonTOP:visited {
+        background-color: #aa9e98;
+        color: white;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    a.buttonTOP:hover, a.buttonTOP:active {
+        background-color: #91847e;
+    }
+
+
+
+/*
+=====================================================================
+    BUTTON SNS
+=====================================================================
+*/
+
+    .buttonSNS {
+        color: white;
+    }
+
+    a.buttonSNS:link, a.button:visited {
+        background-color: #91847e;
+        color: white;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        width: 50%;
+        text-decoration: none;
+        word-wrap: break-word;
+    }
+
+    a.buttonSNS:hover, a.button:active {
+        background-color: #6d6059;
+    }
+
+
+
+/*
+=====================================================================
+    DP TABLE
+=====================================================================
+*/
+
+    table#dp {
+        font-family: 'Open Sans', sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+        padding-left: 5em;
+    }
+
+        table#dp td {
+            border: 1px solid #A9A9A9;
+            text-align: left;
+            padding: 8px;
+        }
+
+        table#dp th {
+            background-color: #D3D3D3;
+            border: 1px solid #A9A9A9;
+            text-align: left;
+            padding: 8px;
+            width: 30%;
+        }
+
+
+
+/*
+=====================================================================
+    CMS TABLE
+=====================================================================
+*/
+
+    table#cms {
+        font-family: 'Open Sans', sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        padding-left: 5em;
+        margin-top: 20px;
+    }
+
+        table#cms_stat {
+            font-family: 'Open Sans', sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+            padding-left: 5em;
+            border: 1px solid #A9A9A9;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table#cms th {
+            background-color: #D3D3D3;
+            border: 1px solid #A9A9A9;
+            text-align: center;
+            padding: 8px;
+        }
+
+        table#cms td {
+            border: 1px solid #A9A9A9;
+            text-align: center;
+            padding: 8px;
+        }
+
+
+
+/*
+=====================================================================
+    ABOUT TABLE
+=====================================================================
+*/
+
+    .aboutTITLE {
+        padding: 8px;
+        width: 100%;
+        display: inline-block;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        background-color: #91847e;
+    }
+
+
+
+/*
+=====================================================================
+    NAVBAR UL/LI
+=====================================================================
+*/
+
+    ul.navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #3d342f;
+        text-align: center;
+        /* -webkit-box-shadow: 0px 2px 5px 0px rgba(87,87,87,1);
+        -moz-box-shadow: 0px 2px 5px 0px rgba(87,87,87,1);
+        box-shadow: 0px 2px 5px 0px rgba(87,87,87,1); */
+    }
+
+    li.navbar {
+        float: left;
+    }
+
+        li.navbar a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li.navbar a:hover:not(.active){
+            background-color: #6d6059;
+        }
+
+        li.navbar a.home:hover:not(.active) {
+            background-color: #3d342f;
+        }
+
+    .active {
+        background-color: #1c1613;
+    }
+
+
+
+/*
+=====================================================================
+    ABOUT ROW
+=====================================================================
+*/
 
     .rowABOUT::after {
-        /* width: auto;
-        max-width: 100%;
-        height: auto; */
-
         content: "";
         clear: both;
         display: table;
@@ -314,8 +326,6 @@ h3 {
         flex: 70%;
     }
 
-    
-
     /*
     @media screen and (max-width: 600px) {
         .rowABOUT {
@@ -332,31 +342,33 @@ h3 {
     }
     */
 
-/* [ABOUT ROWS] ENDS */
 
 
-
-/* [DROPDOWN TOP NAV] STARTS */
+/*
+=====================================================================
+    DROPDOWN TOP NAV
+=====================================================================
+*/
 
     .dropdown {
         float: right;
         overflow: hidden;
     }
 
-    .dropdown .dropbtn {
-        font-size: inherit;
-        border: none;
-        outline: none;
-        color: white;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: inherit;
-        margin: 0;
-    }
+        .dropdown .dropbtn {
+            font-size: inherit;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
 
-    .dropdown:hover .dropbtn {
-        background-color: #1c1613;
-    }
+        .dropdown:hover .dropbtn {
+            background-color: #1c1613;
+        }
     
     .dropdown-content {
         right: 0;
@@ -369,29 +381,31 @@ h3 {
         z-index: 1;
     }
 
-    .dropdown-content a{
-        font-size: inherit;
-        float: none;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: right;
-    }
+        .dropdown-content a{
+            font-size: inherit;
+            float: none;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: right;
+        }
 
-    .dropdown-content a:hover:not(.active) {
-        background-color: red;
-        color: white;
-    }
+        .dropdown-content a:hover:not(.active) {
+            background-color: red;
+            color: white;
+        }
 
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-
-/* [DROPDOWN TOP NAV] ENDS */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
 
 
 
-/* [SLIDESHOW HOME] STARTS HERE */
+/*
+=====================================================================
+    SLIDESHOW HOME
+=====================================================================
+*/
 
     * {box-sizing:border-box}
 
@@ -460,9 +474,9 @@ h3 {
         transition: background-color 0.5s ease;
     }
 
-    .dot:hover {
-        background-color: #717171;
-    }
+        .dot:hover {
+            background-color: #717171;
+        }
 
     .fade {
         -webkit-animation-name: fade;
@@ -481,11 +495,13 @@ h3 {
         to {opacity: 1}
     }
 
-/* [SLIDESHOW HOME] ENDS HERE */
 
 
-
-/* [RESPONSIVE] STARTS */
+/*
+=====================================================================
+    RESPONSIVE PROPERTIES
+=====================================================================
+*/
 
     [class*="col-"] {
         width: 100%;
@@ -521,4 +537,112 @@ h3 {
         .col-12 {width: 100%;}
     }
 
-/* [RESPONSIVE] ENDS */
+
+
+/*
+=====================================================================
+    COMMISH TYPE
+=====================================================================
+*/
+
+    #CommishType {
+        padding: 0 0 0 0;
+    }
+
+        #CommishType .container {
+            text-align: left;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+        }
+
+            #CommishType .container::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+        #CommishType .catg {
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+            #CommishType .catg .cell {
+                height: 333px;
+                display: inline-block;
+            }
+
+            #CommishType .catg .type1 {
+                width: 200px;
+                padding: 0;
+            }
+
+            /* #CommishType .catg .type2 {
+                width: 720px;
+            } */
+
+            #CommishType .catg .cell .update {
+                position: absolute;
+            }
+            
+            #CommishType .catg .cell a {
+                display: block;
+                -webkit-user-select: none;
+            }
+
+            #CommishType .catg .cell:hover {
+			}
+
+                #CommishType .catg .cell a .over {
+                    display: none;
+                    position: absolute;
+                    margin-top: 0px;
+                }
+
+                #CommishType .catg .cell:hover .over {
+                    display: block;
+                }
+
+                body.tablet #CommishType .catg .cell:hover .over{
+                    display: none;
+                }
+
+    ul.catg {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li.cell {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+
+/*
+=====================================================================
+    CLEARFIX
+=====================================================================
+*/
+
+    .clearfix:after{
+        content: " ";
+        display: block;
+        visibility: hidden;
+        clear: both;
+        height: 0.1px;
+        font-size: 0.1em;
+        line-height: 0;
+    }
+    .clearfix{
+        display: inline-block;
+    }
+    /* Hides from IE-mac ＼*/
+    *html .clearfix{
+        height:1%;
+    }
+    .clearfix{
+        display:block;
+    }
