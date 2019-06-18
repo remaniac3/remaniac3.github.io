@@ -15,15 +15,7 @@ img.fittoscreen {
     height: auto;
 }
 
-h1 {
-    font-family: 'Nunito', sans-serif;
-}
-
-h2 {
-    font-family: 'Nunito', sans-serif;
-}
-
-h3 {
+h1, h2, h3 {
     font-family: 'Nunito', sans-serif;
 }
 
