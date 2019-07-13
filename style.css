@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    background-color: #f6f1eb;
+    /* background-color: #f6f1eb; */
+    background-color: #3d342f;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -54,7 +55,7 @@ h1, h2, h3 {
 }
 
 .main {
-    max-width: 70%;
+    /* max-width: 70%; */
     margin: auto;
     flex: 70%;
     background-color: #f6f1eb;
@@ -75,9 +76,27 @@ h1, h2, h3 {
     text-align: left;
 }
 
+.main .containerB {
+    max-width: 100%;
+    background-color: #64638A;
+}
+
+.main .containerC {
+    background-color: #424A40;
+}
+
+.main .containerD {
+    background-color: #4C4B70;
+}
+
+.main .containerE {
+    background-color: #8A6C5C;
+} */
+
 .footer {
     font-family: 'Nunito', sans-serif;
     text-decoration: none;
+    font-size: 20px;
     padding: 20px;
     text-align: center;
     background: #3d342f;
@@ -87,6 +106,7 @@ h1, h2, h3 {
 .footer a {
     text-decoration: none;
     color: white;
+    font-style: normal;
 }
 
 .button_spacing {
@@ -409,7 +429,7 @@ i.material-icons {
     * {box-sizing:border-box}
 
     .slideshow-container {
-        max-width: 1000px;
+        max-width: 960px;
         position: relative;
         margin: auto;
     }
@@ -446,9 +466,9 @@ i.material-icons {
         color: #f2f2f2;
         font-size: 15px;
         padding: 8px 12px;
-        position: absolute;
+        position: relative;
         bottom: 5px;
-        width: 100%;
+        width: 960px;
         text-align: center;
         background-color: rgba(0, 0, 0, 0.6);
     }
