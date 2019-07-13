@@ -76,9 +76,14 @@ h1, h2, h3 {
     text-align: left;
 }
 
-.main .containerB {
-    max-width: 100%;
+.mainContainerB {
+    margin: auto;
+    flex: 70%;
     background-color: #64638A;
+    padding: 30px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
 }
 
 /* .main .containerC {
