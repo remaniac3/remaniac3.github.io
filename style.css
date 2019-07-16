@@ -54,50 +54,6 @@ h1, h2, h3 {
     padding-bottom: 0px;
 }
 
-.main {
-    /* max-width: 70%; */
-    margin: auto;
-    flex: 70%;
-    background-color: #f6f1eb;
-    padding: 30px;
-    color: #000000;
-    font-size: 16px;
-    text-align: center;
-}
-
-.mainLEFT {
-    max-width: 70%;
-    margin: auto;
-    flex: 70%;
-    background-color: #f6f1eb;
-    padding: 30px;
-    color: #000000;
-    font-size: 16px;
-    text-align: left;
-}
-
-.mainContainerB {
-    margin: auto;
-    flex: 70%;
-    background-color: #64638A;
-    padding: 30px;
-    color: #FFFFFF;
-    font-size: 16px;
-    text-align: center;
-}
-
-/* .main .containerC {
-    background-color: #424A40;
-}
-
-.main .containerD {
-    background-color: #4C4B70;
-}
-
-.main .containerE {
-    background-color: #8A6C5C;
-} */
-
 .footer {
     font-family: 'Nunito', sans-serif;
     text-decoration: none;
@@ -123,6 +79,81 @@ h1, h2, h3 {
 i.material-icons {
     vertical-align: sub;
 }
+
+
+
+/*
+=====================================================================
+    MAIN CONTAINER
+=====================================================================
+*/
+
+    .main {
+        /* max-width: 70%; */
+        margin: auto;
+        flex: 70%;
+        background-color: #f6f1eb;
+        padding: 30px;
+        color: #000000;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .mainLEFT {
+        max-width: 70%;
+        margin: auto;
+        flex: 70%;
+        background-color: #f6f1eb;
+        padding: 30px;
+        color: #000000;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .mainContainerB {
+        max-width: 100%;
+        background-color: #64638A;
+    }
+
+    .mainContainerC {
+        background-color: #424A40;
+    }
+
+    .mainContainerD {
+        background-color: #4C4B70;
+    }
+
+    .mainContainerE {
+        background-color: #8A6C5C;
+    }
+
+    .mainContainerContent {
+        margin: auto;
+        max-width: 960px;
+        flex: 70%;
+        padding: 30px;
+        color: #FFFFFF;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .mainContainerContent a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .mainContainerContent h1{
+        text-transform: uppercase;
+    }
+
+    .mainContainerContent h2{
+        text-transform: uppercase;
+    }
+
+    .mainContainerContent h3{
+        text-transform: uppercase;
+    }
+
 
 
 /*
@@ -243,25 +274,123 @@ i.material-icons {
             border-collapse: collapse;
             width: 50%;
             padding-left: 5em;
-            border: 1px solid #A9A9A9;
             margin-left: auto;
             margin-right: auto;
         }
 
         table#cms th {
-            background-color: #D3D3D3;
-            border: 1px solid #A9A9A9;
+            background-color: #3d342f;
             text-align: center;
             padding: 8px;
         }
 
         table#cms td {
-            border: 1px solid #A9A9A9;
             text-align: center;
             padding: 8px;
+            color: #000000;
+            border-left: 1px solid #3d342f;
+            border-right: 1px solid #3d342f;
+        }
+
+        table#cms tr:nth-child(even){background-color: #f6f1eb}
+
+        table#cms tr:nth-child(odd){background-color: #d4cfc9}
+
+        table#cms tr:first-child th:first-child {
+            border-top-left-radius: 10px;
+        }
+
+        table#cms tr:first-child th:last-child {
+            border-top-right-radius: 10px;
+        }
+
+        table#cms td:first-child {
+            border-left: none;
+        }
+        
+        table#cms td:last-child {
+            border-right: none;
         }
 
 
+/*
+=====================================================================
+    CMS UL/LI
+=====================================================================
+*/
+    ul.cmsDot {
+        list-style-type: disc;
+        list-style-position: inside;
+    }
+
+    ol.cmsNum {
+        list-style-position: inside;
+    }
+
+
+
+/*
+=====================================================================
+    CMS PROCEDURE
+=====================================================================
+*/
+
+    .cms_section .cms_row {
+        max-width: 960px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cms_row {
+        min-width: 200px;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .cms_row .cms_row-flex {
+        box-sizing: border-box;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .cms_row .cms_row-flex > .cms_column_container {
+        display: flex;
+    }
+
+    .cms_row .cms_row-flex > .cms_column_containerB {
+        display: flex;
+    }
+
+    .cms_column {
+        padding: 2rem 3rem;
+    }
+
+    .cms_column_inner {
+        border: 4px solid #fff;
+        border-radius: 1rem;
+        padding: 16px 12px;
+        margin: auto;
+    }
+
+    p.cmsFinePrint {
+        font-size: 12px;
+        font-style: italic;
+    }
+
+    .cms_arrow-down {
+        margin: auto;
+        width: 0; 
+        height: 0; 
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid #FFFFFF;
+      }
 
 /*
 =====================================================================
@@ -669,4 +798,36 @@ i.material-icons {
     }
     .clearfix{
         display:block;
+    }
+
+
+
+/*
+=====================================================================
+    CMS - FLEXBOX FROM SCRATCH
+=====================================================================
+*/
+
+    .cms_Usage_Container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .cms_Usage_Child {
+        flex-grow: 1;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 30px;
+        align-self: center;
+    }
+
+    .cms_Usage_Child_Border {
+        border: 4px solid #fff;
+        border-radius: 1rem;
+        padding: 16px 16px;
+        margin: auto;
+        max-width: 250px;
     }
