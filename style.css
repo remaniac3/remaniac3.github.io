@@ -4,27 +4,39 @@ body {
     background-color: #EEEEEE;
 }
 
-.containerMaster {
-    padding: 2em 0;
+.containerTop {
+    padding: 1em 0 2em 0;
+}
+
+.containerBottom {
+    padding: 2em 0 1em 0;
+}
+
+.containerPartA {
+    background-color: #0092ca;
 }
 
 .linkNoFormat a, .linkNoFormat a:link, .linkNoFormat a:active, .linkNoFormat a:hover, .linkNoFormat a:visited  {
     text-decoration: none;
 }
 
-.bodyh1 {
+.textLightBlue {
     color: #0092ca;
 }
 
 
 /******************** NAVBAR ********************/
 
-.navbarName, .navbarName a:link, .navbarName a:active, .navbarName a:hover, .navbarName a:visited {
+.navbarName {
     text-decoration: none;
     font-family:'Nunito', sans-serif;
     color: #EEEEEE;
     font-weight: 900;
     font-size: 1.5em;
+}
+
+.navbar-brand a, .navbar-brand a:link, .navbar-brand a:active, .navbar-brand a:hover, .navbar-brand a:visited {
+    color: #EEEEEE;
 }
 
 .navbarPadding, .navbarPadding a {
@@ -33,7 +45,8 @@ body {
 }
 
 #navigationBar {
-    background-color: #222831;
+    background-color: #393e46;
+    /*background-color: #222831;*/
     padding: .5em 3em;
     text-decoration: none;
 }
@@ -46,11 +59,21 @@ body {
     color: #EEEEEE;
 }
 
-.footerText, .footerText a:link, .footerText a:active, .footerText a:hover, .footerText a:visited {
+.footerText a:link, .footerText a:active, .footerText a:hover, .footerText a:visited {
     color: #EEEEEE;
 }
 
 #footerEx {
-    background-color: #393e46;
+    background-color: #0092ca;
+    /*background-color: #393e46;*/
     padding: 1em 0;
+}
+
+
+/******************** @MEDIA ********************/
+
+@media only screen and (max-width: 900px) {
+    body {
+        padding: 70px 3em;
+    }
 }
