@@ -24,6 +24,10 @@ body {
     color: #0092ca;
 }
 
+.imageProfile {
+    border-radius: 50%;
+}
+
 
 /******************** NAVBAR ********************/
 
