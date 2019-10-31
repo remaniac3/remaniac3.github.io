@@ -26,6 +26,20 @@ body {
 
 .imageProfile {
     border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+
+/******************** FONT AWESOME ********************/
+
+.fa-inactive {
+    color: #EEEEEE;
+    opacity: 75%;
+}
+
+.fa-inactive:hover {
+    opacity: 100%;
 }
 
 
@@ -67,10 +81,23 @@ body {
     color: #EEEEEE;
 }
 
+.socmedIcons {
+    display: inline-block;
+    width: 3em;
+}
+
+.socmedIcons ul {
+    list-style-type: none;
+}
+
+.socmedIcons li {
+    float: center;
+}
+
 #footerEx {
     background-color: #0092ca;
     /*background-color: #393e46;*/
-    padding: 1em 0;
+    padding: 2em 0;
 }
 
 
