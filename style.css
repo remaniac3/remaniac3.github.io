@@ -5,30 +5,50 @@ body {
 }
 
 .containerTop {
-    padding: 1em 0 2em 0;
+    padding: 2em 0 1em 0;
+}
+
+.containerMiddle {
+    padding: 1em 0 1em 0;
 }
 
 .containerBottom {
-    padding: 2em 0 1em 0;
+    padding: 1em 0 3em 0;
 }
 
 .containerPartA {
     background-color: #0092ca;
 }
 
-.linkNoFormat a, .linkNoFormat a:link, .linkNoFormat a:active, .linkNoFormat a:hover, .linkNoFormat a:visited  {
-    text-decoration: none;
+.imageProfile {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 146, 202, 0.3);
 }
+
+.dottedHorizontal {
+    border: dotted #0092ca 10px;
+    border-bottom: none;
+    width: 16%;
+    opacity: 50%;
+}
+
+
+/******************** TEXT STYLING ********************/
 
 .textLightBlue {
     color: #0092ca;
 }
 
-.imageProfile {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
+.textThick {
+    font-weight: 900;
 }
+
+.textNunito {
+    font-family:'Nunito', sans-serif;
+}
+
 
 
 /******************** FONT AWESOME ********************/
@@ -49,7 +69,7 @@ body {
     text-decoration: none;
     font-family:'Nunito', sans-serif;
     color: #EEEEEE;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1.5em;
 }
 
@@ -57,9 +77,12 @@ body {
     color: #EEEEEE;
 }
 
-.navbarPadding, .navbarPadding a {
-    padding: 0 0 0 1em;
+.navbarLinkFormat {
     color: #EEEEEE;
+}
+
+.navbarPadding {
+    padding: 0 0 0 1em;
 }
 
 #navigationBar {
@@ -73,28 +96,24 @@ body {
 /******************** FOOTER ********************/
 
 .footerText {
-    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
     color: #EEEEEE;
+    opacity: 80%;
 }
 
-.footerText a:link, .footerText a:active, .footerText a:hover, .footerText a:visited {
-    color: #EEEEEE;
+.socmedContainer {
+    text-align: right;
 }
 
 .socmedIcons {
     display: inline-block;
-    width: 3em;
-}
-
-.socmedIcons ul {
-    list-style-type: none;
-}
-
-.socmedIcons li {
-    float: center;
+    padding-left: .5em;
 }
 
 #footerEx {
+    width: 100%;
     background-color: #0092ca;
     /*background-color: #393e46;*/
     padding: 2em 0;
@@ -102,9 +121,57 @@ body {
 
 
 /******************** @MEDIA ********************/
+/******************** @MEDIA ********************/
+/******************** @MEDIA ********************/
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     body {
-        padding: 70px 3em;
+        padding-top: 90px;
+    }
+
+    .imageProfile {
+        width: 200px;
+        height: 200px;
+    }
+
+    .navbarPadding {
+        padding: .5em 0 .5em 0;
+    }
+
+    #navigationBar {
+        padding: 1em 3em;
+    }
+
+
+    /******************** FOOTER ********************/
+
+    .footerText {
+        text-align: center;
+        padding-bottom: .5em;
+    }
+
+    .socmedContainer {
+        text-align: center;
+    }
+
+
+    /******************** CONTAINERS ********************/
+
+    .containerTop {
+        padding: 2em 3em 1em 3em;
+    }
+
+    .containerMiddle {
+        padding: 1em 3em 1em 3em;
+    }
+
+    .containerBottom {
+        padding: 1em 3em 2em 3em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbarPadding {
+        padding: .5em 0 .5em 2em;
     }
 }
