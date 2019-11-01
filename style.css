@@ -28,10 +28,9 @@ body {
 }
 
 .dottedHorizontal {
-    border: dotted #0092ca 10px;
+    border: dotted rgba(0,146,202,0.5) 10px;
     border-bottom: none;
     width: 16%;
-    opacity: 50%;
 }
 
 
@@ -45,21 +44,25 @@ body {
     font-weight: 900;
 }
 
+.textCollapseTitle {
+    color: #EEEEEE;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
 .textNunito {
     font-family:'Nunito', sans-serif;
 }
 
 
-
 /******************** FONT AWESOME ********************/
 
 .fa-inactive {
-    color: #EEEEEE;
-    opacity: 75%;
+    color: rgba(238,238,238,0.75);
 }
 
 .fa-inactive:hover {
-    opacity: 100%;
+    color: rgba(238,238,238,1);
 }
 
 
@@ -90,6 +93,81 @@ body {
     /*background-color: #222831;*/
     padding: .5em 3em;
     text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/******************** ACCORDION STYLE ********************/
+
+.collapsedCardOuter {
+    border: rgba(0,146,202,1);
+    background-color: rgba(0,146,202,1);
+    background-image: linear-gradient(rgba(0,146,202,1), rgba(0,125,173,1));
+}
+
+.collapsedCardContent {
+    border: dashed rgba(0,146,202,1) 3px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+
+/******************** SVG SHAPES ********************/
+
+.doujinPlaceholder {
+    width: 150px;
+    height: 212px;
+    fill: rgba(100,100,100,1);
+}
+
+.doujinType {
+    width: 80px;
+    height: 20px;
+    float: left;
+}
+
+.doujinType-red {
+    fill: #cc0000;
+}
+
+.doujinType-green {
+    fill: #6aa84f;
+}
+
+
+/******************** COMICS PAGE ********************/
+
+.containerComicsMain {
+    margin: auto;
+    width: 80%;
+}
+
+.comicTextResponsive {
+    text-align: left;
+}
+
+.comicDetails{
+    border: none;
+    width: 100%;
+}
+
+.comicDetailsTitles {
+    width: 40%;
+    font-weight: bold;
+}
+
+.comicDetailsParticulars {
+    width: 60%;
+}
+
+.comicContainer {
+    padding: 2em 0 2em 0;
+}
+
+.comicHorizontals {
+    border: dashed rgba(0,146,202,0.5) 3px;
+    border-bottom: none;
+    width: 90%;
 }
 
 
@@ -99,8 +177,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     text-align: left;
-    color: #EEEEEE;
-    opacity: 80%;
+    color: rgba(238,238,238,0.8);
 }
 
 .socmedContainer {
@@ -165,9 +242,33 @@ body {
         padding: 1em 3em 1em 3em;
     }
 
+    .containerComicsMain {
+        width: 100%;
+    }
+
     .containerBottom {
         padding: 1em 3em 2em 3em;
     }
+
+
+    /******************** COMICS PAGE ********************/
+
+    .comicCoverResponsive {
+        padding-bottom: 1em;
+    }
+
+    .comicTextResponsive {
+        text-align: center;
+    }
+
+    .comicDetailsTitles {
+        width: 40%;
+    }
+
+    .comicDetailsParticulars {
+        width: 60%;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
