@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* Bootstrap 4 Official Workaround */
 body {
     padding-top: 70px;
@@ -42,6 +46,10 @@ body {
 
 .textThick {
     font-weight: 900;
+}
+
+.textSlightThick {
+    font-weight: 700;
 }
 
 .textCollapseTitle {
@@ -126,6 +134,11 @@ body {
     float: left;
 }
 
+.doujinCover {
+    width: 150px;
+    height: 212px;
+}
+
 .doujinType-red {
     fill: #cc0000;
 }
@@ -168,6 +181,10 @@ body {
     border: dashed rgba(0,146,202,0.5) 3px;
     border-bottom: none;
     width: 90%;
+}
+
+.comicPDFShop {
+    padding-top: 1em;
 }
 
 
@@ -267,6 +284,10 @@ body {
 
     .comicDetailsParticulars {
         width: 60%;
+    }
+
+    .comicPDFShop {
+        text-align: center;
     }
 
 }
