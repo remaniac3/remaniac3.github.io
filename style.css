@@ -62,7 +62,6 @@ body {
     font-family:'Nunito', sans-serif;
 }
 
-
 /******************** FONT AWESOME ********************/
 
 .fa-inactive {
@@ -153,6 +152,11 @@ body {
 .containerComicsMain {
     margin: auto;
     width: 80%;
+}
+
+.containerParagraph {
+    margin: auto;
+    width: 70%;
 }
 
 .comicTextResponsive {
@@ -265,6 +269,10 @@ body {
 
     .containerBottom {
         padding: 1em 3em 2em 3em;
+    }
+
+    .containerParagraph {
+        width: 80%;
     }
 
 
