@@ -71,6 +71,16 @@ body {
     font-family:'Nunito', sans-serif;
 }
 
+
+/******************** TABLE ********************/
+
+.tableWidth {
+    margin: auto;
+    width: 60%;
+}
+
+
+
 /******************** FONT AWESOME ********************/
 
 .fa-inactive {
@@ -305,6 +315,13 @@ body {
 
     .comicPDFShop {
         text-align: center;
+    }
+
+
+    /******************** COMICS PAGE ********************/
+    
+    .tableWidth {
+        width: 80%;
     }
 
 }
