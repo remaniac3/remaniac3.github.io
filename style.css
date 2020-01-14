@@ -76,7 +76,7 @@ body {
 
 .tableWidth {
     margin: auto;
-    width: 60%;
+    width: 80%;
 }
 
 
@@ -318,10 +318,10 @@ body {
     }
 
 
-    /******************** COMICS PAGE ********************/
+    /******************** TABLES ********************/
     
     .tableWidth {
-        width: 80%;
+        width: 90%;
     }
 
 }
