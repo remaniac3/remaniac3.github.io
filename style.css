@@ -4,7 +4,7 @@ html {
 
 /* Bootstrap 4 Official Workaround */
 body {
-    padding-top: 70px;
+    padding-top: 62.1px;
     background-color: #EEEEEE;
 }
 
@@ -29,8 +29,12 @@ body {
     background-color: #0092ca;
 }
 
+.jumbotron {
+    margin-bottom: 0;
+}
+
 .jumbotronGrey {
-    background-color: #d9e2f0;
+    background-color: #cdd0d3;
 }
 
 .imageProfile {
@@ -44,6 +48,23 @@ body {
     border: dotted rgba(0,146,202,0.5) 10px;
     border-bottom: none;
     width: 16%;
+}
+
+
+/******************** HEADER PICTURES ********************/
+
+.headerComms {
+    height: 30vh;
+    max-height: 500px;
+    background-image: url('https://i.imgur.com/x4klvC4.jpg');
+    opacity: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.headerTexts {
+    color: #000000;
 }
 
 
@@ -71,12 +92,84 @@ body {
     font-family:'Nunito', sans-serif;
 }
 
+.textSmall {
+    font-size: 0.8em;
+}
+
+
+/******************** BUTTONS ********************/
+
+.btnDefault {
+    background-color: #0092ca;
+}
+
+.btnDefault:hover {
+    background-color: #007aa9;
+}
+
+.btnDefault a, a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
 
 /******************** TABLE ********************/
 
-.tableWidth {
+.tableWidth, .rowWidth {
     margin: auto;
     width: 80%;
+}
+
+.columnLeft {
+    padding-left: 0;
+}
+
+.columnMiddle {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+.columnRight {
+    padding-right: 0;
+}
+
+.theadDefault {
+    background-color: #0092ca;
+    color: #FFFFFF;
+}
+
+.theadDefault th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.tbodyDefault {
+    background-color: #FFFFFF;
+}
+
+/******************** CARDS ********************/
+
+.cardWidth {
+    margin: auto;
+    width: 80%;
+}
+
+.cardBodyPadding {
+    padding: 20px 2.5em 20px 2.5em;
+}
+
+.cardCenter {
+    margin: auto;
+    text-align: center;
+}
+
+/******************** DIRECTIONALS ********************/
+
+.arrowDown {
+    margin: 1em auto 1em auto;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #FFFFFF;
 }
 
 
@@ -93,6 +186,10 @@ body {
 
 
 /******************** NAVBAR ********************/
+
+.navbar {
+    margin-bottom: 0;
+}
 
 .navbarName {
     text-decoration: none;
@@ -320,8 +417,23 @@ body {
 
     /******************** TABLES ********************/
     
-    .tableWidth {
+    .tableWidth, .rowWidth {
         width: 90%;
+    }
+
+    .columnLeft {
+        padding-left: 15px;
+        padding-bottom: 1em;
+    }
+
+    .columnMiddle {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 1em;
+    }
+
+    .columnRight {
+        padding-right: 15px;
     }
 
 }
