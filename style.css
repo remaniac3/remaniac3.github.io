@@ -34,7 +34,7 @@ body {
 }
 
 .jumbotronGrey {
-    background-color: #cdd0d3;
+    background-color: rgba(154, 182, 209, 0.3);
 }
 
 .imageProfile {
@@ -50,21 +50,42 @@ body {
     width: 16%;
 }
 
+#backToTop {
+    width: 69px;
+    height: 69px;
+    display: none;
+    position: fixed;
+    bottom: 1.5em;
+    right: 1.5em;
+    z-index: 10:
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+#backToTop:hover {
+    background-color: #555;
+}
 
 /******************** HEADER PICTURES ********************/
 
 .headerComms {
     height: 30vh;
     max-height: 500px;
-    background-image: url('https://i.imgur.com/x4klvC4.jpg');
-    opacity: 50%;
+    background-image: url('https://i.imgur.com/obBJUl4.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .headerTexts {
-    color: #000000;
+    color: #FFFFFF;
+    font-family:'Nunito', sans-serif;
+    font-weight: 900;
 }
 
 
@@ -94,6 +115,12 @@ body {
 
 .textSmall {
     font-size: 0.8em;
+}
+
+.textHTags {
+    color: #0092ca;
+    font-family:'Nunito', sans-serif;
+    font-weight: 700;
 }
 
 
@@ -169,7 +196,7 @@ body {
     height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 20px solid #FFFFFF;
+    border-top: 20px solid #0092ca;
 }
 
 
@@ -340,7 +367,7 @@ body {
 
 @media only screen and (max-width: 800px) {
     body {
-        padding-top: 90px;
+        padding-top: 78px;
     }
 
     .imageProfile {
