@@ -46,24 +46,17 @@
 
         <main class="text-center">
 
-            <div class="container containerTop">
-                    <h1 class="textLightBlue textThick textNunito">COMICS</h1>
-            </div>
-
-            <div class="container containerMiddle">
-                <div class="containerParagraph">
-                    <p class="textNunito">Here are all the comics I have made since year 2015.
-                        <br>
-                        <br>I like making comics as it is a great method to tell a story.
-                        <br>Though I must admit the process of making one is very challenging and time-consuming.
-                        <br>Nevertheless, the satisfaction you get when you finish one comic can be priceless, depending on how you weigh your effort.
-                        <br>
-                        <br>They are either <b>self-published</b> for sale at conventions, or meant for <b>contests</b>.
-                    </p>
+            <header class="headerComms">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12 text-center">
+                            <h1 class="headerTexts">COMICS</h1>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </header>
 
-            <div class="container containerBottom">
+            <div class="container containerComics">
                 <div id="accordion" class="containerComicsMain">
 
                   <div class="card">
@@ -285,13 +278,7 @@
                       </div>
                     </div>
                 </div>
-            </div>
-
-<!--             <div class="container containerMiddle"><hr class="dottedHorizontal"></div>
-
-            <div class="container containerBottom">
-                <h3 class="textLightBlue textThick textNunito">WORK<br>⚠ IN ⚠<br>PROGRESS</h3>
-            </div>     -->                    
+            </div>             
         </main>
 
         <footer class="container-fluid" id="footerEx">
@@ -313,9 +300,13 @@
             </div>
         </footer>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!--The "Back to Top" Button -->
+        <button class="btn btn-primary" onclick="functionTop()" id="backToTop" title="Go to Top"><i class="fa fa-arrow-up faMiddle"></i></button>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="../js/backToTop.js"></script>
 
         <script>
             // Accordion always ON.

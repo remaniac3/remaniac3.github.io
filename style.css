@@ -14,7 +14,7 @@ body {
 }
 
 .containerTop {
-    padding: 2em 0 1em 0;
+    padding: 4em 0 1em 0;
 }
 
 .containerMiddle {
@@ -22,7 +22,11 @@ body {
 }
 
 .containerBottom {
-    padding: 1em 0 4em 0;
+    padding: 1em 0 5em 0;
+}
+
+.containerComics {
+    padding: 4em .5em 5em .5em;
 }
 
 .containerPartA {
@@ -51,16 +55,15 @@ body {
 }
 
 #backToTop {
-    width: 69px;
-    height: 69px;
-    display: none;
+    width: 48px;
+    height: 48px;
     position: fixed;
     bottom: 1.5em;
     right: 1.5em;
     z-index: 10:
     border: none;
     outline: none;
-    background-color: red;
+    background-color: #006287;
     color: white;
     cursor: pointer;
     padding: 16px;
@@ -68,7 +71,7 @@ body {
 }
 
 #backToTop:hover {
-    background-color: #555;
+    background-color: #004e6b;
 }
 
 /******************** HEADER PICTURES ********************/
@@ -138,6 +141,13 @@ body {
     color: #FFFFFF;
     text-decoration: none;
 }
+
+.faMiddle.fa {
+    text-align: center;
+    display: table-cell; 
+    vertical-align: middle;
+}
+
 
 /******************** TABLE ********************/
 
@@ -354,6 +364,7 @@ body {
 }
 
 #footerEx {
+    position: absolute;
     width: 100%;
     background-color: #0092ca;
     /*background-color: #393e46;*/
@@ -416,6 +427,10 @@ body {
 
     .containerParagraph {
         width: 80%;
+    }
+
+    .containerComics {
+        padding: 4em 2.5em 5em 2.5em;
     }
 
 
