@@ -92,6 +92,42 @@ body {
 }
 
 
+/******************** INDEX HERO PICTURES ********************/
+
+#indexBG {
+    background-image: url("../img/index/image1.jpg");
+    float: left;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow:inset 0 0 0 100vh rgba(152, 165, 185, 0.9);
+}
+
+.indexBGText {
+    color: white;
+    font-family: Nunito, sans-serif;
+    text-transform: uppercase;
+}
+
+.indexBGCentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+}
+
+.indexBGCenteredBottom {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 /******************** TEXT STYLING ********************/
 
 .textLightBlue {
@@ -367,7 +403,14 @@ body {
     position: absolute;
     width: 100%;
     background-color: #0092ca;
-    /*background-color: #393e46;*/
+    padding: 2em 0;
+}
+
+#footerExHome {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #0092ca;
     padding: 2em 0;
 }
 
