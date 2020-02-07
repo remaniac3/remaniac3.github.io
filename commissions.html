@@ -17,6 +17,14 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Nunito:400,700,900|Inconsolata" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>$(function(){
+                $("#footerLinks").load("../footer_links.html");
+                });
+        </script>
+
+        <noscript>Please enable JavaScript in your browser to access this site, thank you!</noscript>
     </head>
 
     <body>
@@ -214,14 +222,8 @@
                     <div class="col-sm footerText my-auto">
                         © <script>document.write("2010 - " + new Date().getFullYear())</script> R3MANIAC
                     </div>
-
                     <div class="col-sm socmedContainer my-auto">
-                        <a class="socmedIcons" href="mailto:r3maniac@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope fa-2x fa-inactive"></i></a>
-                        <a class="socmedIcons" href="https://twitter.com/remaniac3" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter fa-2x fa-inactive"></i></a>
-                        <a class="socmedIcons" href="https://www.instagram.com/remaniac3/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram fa-2x fa-inactive"></i></a>
-                        <a class="socmedIcons" href="https://www.facebook.com/Art.of.R3MANIAC" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook fa-2x fa-inactive"></i></a>
-                        <a class="socmedIcons" href="https://remaniac-art.tumblr.com/" target="_blank" rel="noopener noreferrer"><i class="fa fa-tumblr fa-2x fa-inactive"></i></a>
-                        <a class="socmedIcons" href="https://github.com/remaniac3" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x fa-inactive"></i></a>
+                        <div id="footerLinks"></div>
                     </div>
                 </div>
             </div>
@@ -230,7 +232,6 @@
         <!--The "Back to Top" Button -->
         <button class="btn btn-primary" onclick="functionTop()" id="backToTop" title="Go to Top"><i class="fa fa-arrow-up faMiddle"></i></button>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="../js/backToTop.js"></script>
